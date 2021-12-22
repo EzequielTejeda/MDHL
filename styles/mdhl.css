@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-p{
+    width: 100%;
+    font-weight: 400;
+}
+/*HEADER*/
+#logo{
+    height: 4.5rem;
+    background-color: black;
+    border-radius: 15%;
+    margin-left: 4.6vw;
+}
+header{
+    width: 100%;
+    background-color: rgba(238, 238, 3, 0.884);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+h1{
+    padding: 0.8rem;
+    width: 80%;
+    font-family: 'Hahmlet', serif;
+    margin-left: 10vw;
+}
+h2{
+    background-color: rgb(81, 182, 187);
+    font-family: 'Hahmlet', serif;
+    width: 100%;
+}
+/*NAV*/
+nav{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+nav>a{
+    text-decoration: none;
+    border-radius: 25px;
+    background: #000000;
+    color: blanchedalmond;
+    padding: 0.2rem 0.5rem;
+    margin: 0.5rem;
+}
+a:hover{
+    background-color: rgba(238, 238, 3, 0.884);
+    color: rgb(81, 182, 187);
+}
+a:active{
+    background-color: rgb(33, 139, 33);
+    color: indigo;
+}
+/*MAIN*/
+.body-background1{
+    background-image: linear-gradient(
+    115deg,
+    rgba(235, 12, 12, 0.7),
+    rgba(153, 26, 26, 0.808)
+    ), url("../assets/design1_image1.jpg");
+}
+.body-background2{
+    background-image: linear-gradient(
+    115deg,
+    rgba(235, 12, 12, 0.7),
+    rgba(153, 26, 26, 0.808)
+    ), url("../assets/design1_image2.jpg");
+}
+.body-background3{
+    background-image: linear-gradient(
+    115deg,
+    rgba(235, 12, 12, 0.7),
+    rgba(153, 26, 26, 0.808)
+    ), url("../assets/hockey3.jpg");
+}
+.body-background4{
+    background-image: linear-gradient(
+    115deg,
+    rgba(235, 12, 12, 0.7),
+    rgba(153, 26, 26, 0.808)
+    ), url("../assets/hockey1.jpg");
+}
+.body-background5{
+    background-image: linear-gradient(
+    115deg,
+    rgba(235, 12, 12, 0.7),
+    rgba(153, 26, 26, 0.808)
+    ), url("../assets/hockey2.jpg");
+}
+main{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    line-height: 1.2rem;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+h3{
+    font-family: 'Hahmlet', serif;
+}
+.index-container{
+    border-radius: 25px;
+    border-style: dashed;
+    width: 40%;
+    padding: 4rem;
+    background: rgb(81, 182, 187);
+    margin: 2.5rem 2rem 0.5rem 4rem;
+}
+div>article{
+    border-radius: 25px;
+    border-style: dashed;
+    width: 40%;
+    padding: 2rem;
+    background: rgb(81, 182, 187);
+    margin: 2.5rem 2rem 0.5rem 4rem;
+}
+main>dl{
+    border-radius: 25px;
+    border-style: dashed;
+    padding: 2rem;
+    background: rgb(81, 182, 187);
+    margin: 2.5rem 2rem 0.5rem 4rem;
+}
+article>h3{
+    background-color: black;
+    color: blanchedalmond;
+    margin-bottom: 0.5rem;
+}
+.contact-style{
+    border-radius: 25px;
+    border-style: dashed;
+    width: 40%;
+    padding: 2rem;
+    background: rgb(81, 182, 187);
+    margin: 6rem 2rem 0.5rem 0rem;
+}
+.rules{
+    width: 80%;
+    margin-left: 15%;
+    text-align: left;
+}
+dl>dt{
+    margin-bottom: 1rem;
+}
+dl>dd{
+    margin-bottom: 1rem;
+}
+.list{
+    margin-bottom: 1rem;
+}
+ul{
+    width: 65%;
+    margin-left: 3rem
+}
+.other-titles{
+    font-size: 18px;
+    font-weight: 900;
+    font-size: 18px;
+}
+iframe{
+    width: 17vw;
+    height: 8vh;
+}
+/*TABLE*/
+th, td{
+    padding: 0.5rem 0;
+}
+th{
+    font-weight: 900;
+}
+table{
+    padding: 1rem;
+    background: rgb(81, 182, 187);
+    margin-left: 15%;
+    margin-top: 8vh;
+    width: 70%;
+}
+caption{
+    background-color: rgb(81, 182, 187);
+    text-align: left;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.info-container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    border-radius: 25px;
+    border-style: dashed;
+    background: rgb(81, 182, 187);
+}
+div>p{
+    padding: 0.5rem;
+}
+/*FORM*/
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 4rem 0 0 15%;
+    text-align: left;
+    border-radius: 25px;
+    border-style: dashed;
+    padding: 2rem;
+    background: rgb(81, 182, 187);
+}
+.form_section_margin{
+    margin-bottom: 1.5rem;
+}
+.div_flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+fieldset{
+    border-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+label, fieldset>p{
+    font-size: 18px;
+}
+input[type=text], input[type=date], .form_margin, form>h2, select{
+    padding-right: 7rem;
+    margin: 0 2rem 1rem 0;
+}
+input[name=street_address]{
+    padding-right: 38vw;
+}
+input[name=city]{
+    padding-right: 15rem;
+}
+input[name=signature]{
+    margin-top: 1rem;
+}
+fieldset>p{
+    margin-right: 0.5rem;
+}
+input[type=radio]{
+    margin: 0 0.25rem
+}
+.no_margin{
+    margin-left: 0;
+}
+fieldset>div{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+}
+input[type=submit]:hover{
+    background-color: rgba(255, 255, 0, 0.685);
+    border-color: yellow;
+}
